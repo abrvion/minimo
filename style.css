@@ -196,17 +196,18 @@ header {
 }
 .s_up {
   text-align: center;
+  width: 320px;
+  margin: 0 auto;
 }
-.s_up h1 {
+.news h1 {
+  text-align: center;
   font-size: 35px;
   font-family: "playfair display", sans-serif;
   font-weight: 300;
   margin-bottom: 90px;
   margin-top: 0;
 }
-.form {
-  margin-left: 25px;
-}
+
 .form input {
   position: relative;
   width: 220px;
