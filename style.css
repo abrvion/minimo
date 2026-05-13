@@ -13,7 +13,10 @@ body {
 /* common end */
 /* header start  */
 header {
-  padding: 50px 0;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 .container {
   width: 90%;
@@ -21,7 +24,7 @@ header {
   overflow: hidden;
 }
 .logo {
-  width: 15%;
+  width: 150px;
   /* border: 1px solid red; */
   float: left;
   margin-top: 10px;
@@ -36,23 +39,19 @@ header {
 }
 .menu ul {
   list-style: none;
-  float: right;
   font-family: "playfair display", sans-serif;
+  float: right;
 }
 .menu ul li {
   float: left;
 }
 .menu ul li a {
+  margin-left: 100px;
   text-decoration: none;
-  margin-right: 108px;
   color: #626262;
-  display: inline-block;
   border-bottom: 1px solid transparent;
   text-transform: uppercase;
   transition: 0.33s linear;
-}
-.menu ul li:last-child a {
-  margin-right: 0;
 }
 
 .menu ul li a:hover {
@@ -192,8 +191,7 @@ header {
   padding: 100px 0;
 }
 .container3 {
-  width: 60%;
-
+  width: 90%;
   margin: 0 auto;
 }
 .s_up {
@@ -207,18 +205,15 @@ header {
   margin-top: 0;
 }
 .form {
-  position: relative;
-  margin: 0 auto;
-  width: 450px;
-  left: 0;
-  right: 0;
+  margin-left: 25px;
 }
 .form input {
+  position: relative;
+  width: 220px;
   font-size: 16px;
   border: none;
   background-color: transparent;
   border-bottom: 1px solid #626262;
-  width: 400px;
   font-family: "playfair display", sans-serif;
   font-weight: 300;
   padding: 10px 40px 10px 10px;
@@ -226,16 +221,23 @@ header {
 .form button {
   border: none;
   background-color: transparent;
-  position: absolute;
-  top: 14px;
-  right: 0px;
+  position: relative;
+  right: 36px;
+  transition: transform 0.2s ease-in-out;
 }
 .form button img {
-  width: 30px;
+  width: 28px;
 }
+
+.form button:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
 .form form input:focus {
   outline: none;
-} /* news end */
+}
+/* news end */
 
 /* blog2 start  */
 .blog2 {
