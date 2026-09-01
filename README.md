@@ -3,13 +3,13 @@
 
 🌐 live site:  https://abrvion.github.io/minimo/
 
-## Features 🎖️
+### Features 🎖️
 - Minimal Modern design
-- full all device responsive design and functionality
-- detail-oriented color palette and theme
+- fully responsive design and functionality
+- Detail-oriented color palette and theme
 - smooth loading and browsing
 
-## Tech Stack 🚀
+### Tech Stack 🚀
 - HTML
 - CSS
 - BOOTSTAP
