@@ -1,13 +1,13 @@
 # minimo
-> minimo project is a raw photoshoot agency website that presents there work and services 
+> Minimo project is a raw photoshoot agency website that presents its work and services 
 
 🌐 live site:  https://abrvion.github.io/minimo/
 
 ### Features 🎖️
 - Minimal Modern design
-- fully responsive design and functionality
+- Fully responsive design and functionality
 - Detail-oriented color palette and theme
-- smooth loading and browsing
+- Smooth loading and browsing
 
 ### Tech Stack 🚀
 - HTML
